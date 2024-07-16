@@ -1,0 +1,89 @@
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+__pycache__/
+*.so
+
+# C extensions
+*.c
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+bin/
+lib/
+lib64/
+include/
+.venv
+pip-wheel-metadata/
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# If your Django settings file has a secret key or other sensitive data, you might want to ignore it
+# secrets.json
+
+# django-extensions coverage reports
+.coverage
+*.cover
+.hypothesis/
+htmlcov/
+.tox/
+.coverage.*
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django static files
+staticfiles/
+static/
+media/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.env.*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*~
+.project
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.vscode/
+nbproject/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
